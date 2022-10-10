@@ -30,8 +30,8 @@
 
 <h3 align="center">
      ─「 पानीपुरी 」─
-     
-     ## ✨ Easy To Deploy Direct In Repo✨
+<h3 align="center">     
+    # ✨ Easy To Deploy Direct In Repo✨
 
 The Easiest Way To Deploy This Bot Direct From GitHub
 
