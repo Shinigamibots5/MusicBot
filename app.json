@@ -1,100 +1,112 @@
 {
-    "name": "पानीपुरी  Music Bot",
-    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://te.legra.ph/file/51d142cd1c5817832dd5c.jpg",
+    "name": "Veez Music Bot",
+    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
+    "description": "veez music allow you to stream music trought the telegram voice chat feature.",
     "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "पानीपुरी",
-    "पानीपुरी-MusicBot",
-    "telegram-bot",
-    "pyrogram"
+        "music", 
+        "voice chat", 
+        "telegram"
     ],
+    "repository": "https://github.com/levina-lab/veezmusic",
     "stack": "container",
     "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "8942928",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "8edc5a0d1939f3a5de5dc44d021d52ca",
-        "required": true
-      },
-      "AUTO_LEAVING_ASSISTANT": {
-        "description": "If you want your assistant to leave all chats automatically after some time.",
-        "value": "True",
-        "required": false
-      },
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "5301740177:AAGLkdZmmnxx1UhTUGuCQJoog_OZ1fQtctQ",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use पानीपुरी's database for you.",
-        "value": "MONGO_DB_URI", "mongodb+srv://ticel98214:asdfggjkl@cluster0.hm6jsk4.mongodb.net/?retryWrites=true&w=majority",
-        "required": true
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "✨ पानीपुरी 2.0 ✨",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "5143506371",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "AQAhcW0m44_kPwCC5RNmiMq_vQosg5o7I2N_NofCTKui3p1LLgxXPHNrhTdWNTWbAQ_wSOvRxTtEBI3Q9N4vL1vQ2D2kKvTJcSp16CXjNvjfN4CrUkp_SEv98UPpghAtdvJPrkAjT49aStkbvvqLgclNssXhNekmvSgvPhMiqpCxKDpZ_FQr23oryxv-szD4ShuoNFqiJUTsxxuKYNB5ZmibC2JUoTOhGLgKOAVxntKrukMMtcl2XSmHCVWLwccz6YPSJqtlfPSFrWRLKKSfcxMLrY0ST9Kqk29Ey2YkpYF-M95Q8N_B_mLQ9kE-_vY9uWiSrXLkO_bmLa9Fc0hzhUEIeFza5gA",
-        "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
-        "value": "",
-        "required": false
-      },
-      "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
-        "value": "",
-        "required": false
-      },
-      "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001615517255",
-        "required": true
-      },
-      "UPSTREAM_REPO": {
-        "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Shinigamibots5/MusicBot",
-        "required": true
-      },
-      "UPSTREAM_BRANCH": {
-        "description": "Get it from https://developer.spotify.com/dashboard",
-        "value": "Shinigami",
-        "required": true
-      
-      }
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram session string",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token from @BotFather",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "fill with your music bot name.",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "fill with your telegram id as the owner of the bot",
+            "required": true,
+            "value": ""
+        },
+        "DATABASE_URL": {
+            "description": "fill with the mongodb url you get from cloud.mongodb.com",
+            "required": true,
+            "value": ""
+        },
+        "LOG_CHANNEL": {
+            "description": "create a private channel and get the channel id (give the channel username/link to bot @username_to_id_bot and get the channel id), add your bot as admin to the channel too",
+            "required": true,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "fill with your bot username without @",
+            "required": true,
+            "value": "veezmusicbot"
+        },
+        "ASSISTANT_NAME": {
+            "description": "fill with the assistant username without @",
+            "required": true,
+            "value": "veezasisstant"
+        },
+        "BG_IMAGE": {
+            "description": "fill with your costum background image link",
+            "required": false,
+            "value": "https://telegra.ph/file/8628c642a266a22effd8c.png"
+        },
+        "OWNER_NAME": {
+            "description": "fill with your telegram username without @",
+            "required": false,
+            "value": "dlwrml"
+        },
+        "ALIVE_NAME": {
+            "description": "fill with the nickname of your telegram account",
+            "required": false,
+            "value": "Levina"
+        },
+        "API_ID": {
+            "description": "your Api ID from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "your Api Hash from my.telegram.org/apps",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "fill with the user id who can access all function in your bot (separate with space).",
+            "required": true
+        },
+        "DURATION_LIMIT": {
+            "description": "max duration for music to download (in minutes, default is 40).",
+            "required": true,
+            "value": "40"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "if you have channel, fill the channel username here without @",
+            "required": false,
+            "value": "levinachannel"
+        },
+        "GROUP_SUPPORT": {
+            "description": "if you have group, fill the group username here without @",
+            "required": false,
+            "value": "VeezSupportGroup"
+        }
     },
+    "addons": [],
     "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "free"
-          }
-      }
-  }
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
