@@ -7,7 +7,7 @@
         "voice chat", 
         "telegram"
     ],
-    "repository": "https://github.com/levina-lab/veezmusic",
+    "repository": "https://github.com/Shinigamibots5/MusicBot",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -17,6 +17,7 @@
         "BOT_TOKEN": {
             "description": "fill with your bot token from @BotFather",
             "required": true
+            "value": "5301740177:AAGLkdZmmnxx1UhTUGuCQJoog_OZ1fQtctQ"
         },
         "BOT_NAME": {
             "description": "fill with your music bot name.",
@@ -26,54 +27,56 @@
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": ""
+            "value": "5143506371"
         },
         "DATABASE_URL": {
             "description": "fill with the mongodb url you get from cloud.mongodb.com",
             "required": true,
-            "value": ""
+            "value": "mongodb+srv://ticel98214:asdfggjkl@cluster0.hm6jsk4.mongodb.net/?retryWrites=true&w=majority"
         },
         "LOG_CHANNEL": {
             "description": "create a private channel and get the channel id (give the channel username/link to bot @username_to_id_bot and get the channel id), add your bot as admin to the channel too",
             "required": true,
-            "value": ""
+            "value": "-1001615517255"
         },
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
-            "required": true,
-            "value": "veezmusicbot"
+            "required": false,
+            "value": ""
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
-            "required": true,
-            "value": "veezasisstant"
+            "required": false,
+            "value": ""
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/8628c642a266a22effd8c.png"
+            "value": "https://te.legra.ph/file/43716507e3ccbf2e4ce36.jpg"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram username without @",
             "required": false,
-            "value": "dlwrml"
+            "value": ""
         },
         "ALIVE_NAME": {
             "description": "fill with the nickname of your telegram account",
             "required": false,
-            "value": "Levina"
+            "value": "✨ पानीपुरी 2.0 ✨"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true
+            "value": "8942928"
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": true
+            "value": "8edc5a0d1939f3a5de5dc44d021d52ca"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
-            "required": true
+            "required": false
         },
         "DURATION_LIMIT": {
             "description": "max duration for music to download (in minutes, default is 40).",
@@ -83,12 +86,22 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel, fill the channel username here without @",
             "required": false,
-            "value": "levinachannel"
+            "value": ""
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, fill the group username here without @",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": ""
+        },
+        "SPOTIFY_CLIENT_ID": {
+            "description": "if you have group, fill the group username here without @",
+            "required": false,
+            "value": "3dacc03d0781404280b064459a208e63"
+        },
+        "SPOTIFY_CLIENT_SECRET": {
+            "description": "if you have group, fill the group username here without @",
+            "required": false,
+            "value": "492ce4afd83d478190720364189bfbf8"    
         }
     },
     "addons": [],
