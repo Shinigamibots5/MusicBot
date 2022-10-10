@@ -92,16 +92,7 @@
             "description": "if you have group, fill the group username here without @",
             "required": false,
             "value": ""
-        },
-        "SPOTIFY_CLIENT_ID": {
-            "description": "if you have group, fill the group username here without @",
-            "required": false,
-            "value": "3dacc03d0781404280b064459a208e63"
-        },
-        "SPOTIFY_CLIENT_SECRET": {
-            "description": "if you have group, fill the group username here without @",
-            "required": false,
-            "value": "492ce4afd83d478190720364189bfbf8"    
+          
         }
     },
     "addons": [],
