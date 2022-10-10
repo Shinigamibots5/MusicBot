@@ -28,6 +28,11 @@
 <h3 align="center">
 ━━━━━━━━━━━━━━━━━━━━
 
+<h3 align="center">
+     ─「 पानीपुरी 」─
+</h3>
+<h3 align="center">
+   
 
 We have temporarily disabled the deployment for  all these cloud service platforms due to security and ban issues. We don't want innocent users who sign up there to be banned from the platform as a result of this deployment. [Read More](https://t.me/TheYukki/2541)
 
