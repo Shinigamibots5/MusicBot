@@ -12,7 +12,7 @@
 
 # ⚡️ Getting Started [[Documentation](https://te.legra.ph/Getting-Started-10-10)]
 
-> The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
+> The official [documentation site](https://te.legra.ph/Getting-Started-10-10) contains a lot of information. The best place to start is from the deployment section.
 
 ## ⚠️ Heroku / Okteto / Railway
 
