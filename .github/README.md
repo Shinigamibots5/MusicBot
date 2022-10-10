@@ -1,6 +1,6 @@
 <img src="https://te.legra.ph/file/51d142cd1c5817832dd5c.jpg" align="right" width="200" height="200"/>
 
-# पानीपुरी Music Bot <img src="https://github.com/Shinigamibots5/MusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+# पानीपुरी Music Bot <img src="https://github.com/Shinigamibots5/MusicBot?color=black&logo=github&logoColor=black&style=social">
 
 [पानीपुरी Music Bot](https://github.com/Shinigamibots5/MusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
