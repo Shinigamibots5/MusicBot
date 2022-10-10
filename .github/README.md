@@ -10,7 +10,7 @@
 * Multi-Language support
 
 
-# ⚡️ Getting Started [[Documentation](https://notreallyshikhar.gitbook.io/yukkimusicbot/)]
+# ⚡️ Getting Started [[Documentation](https://te.legra.ph/Getting-Started-10-10)]
 
 > The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
 
