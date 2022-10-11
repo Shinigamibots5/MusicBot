@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "8942928",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "8edc5a0d1939f3a5de5dc44d021d52ca",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,7 +30,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "5301740177:AAGLkdZmmnxx1UhTUGuCQJoog_OZ1fQtctQ",
         "required": true
       },
       "MONGO_DB_URI": {
