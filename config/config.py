@@ -31,7 +31,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ticel98214:asdfggjkl@cluste
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "60")
+    getenv("DURATION_LIMIT", "360")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -43,7 +43,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001615517255"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "✨ पानीपुरी 2.0 ✨")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "पानीपुरी 2.0")
 
 # Your User ID.
 OWNER_ID = list(
@@ -64,7 +64,7 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Shinigami")
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
